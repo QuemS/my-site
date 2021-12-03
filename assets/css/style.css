@@ -1,0 +1,45 @@
+* {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    }
+html::-webkit-scrollbar {
+    width: 1rem;
+   }
+html::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+}
+body {
+    padding: 6.5rem;
+}
+.navbar {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    display: flex;
+    z-index: 1000;
+    align-items: flex-end;
+}
+.navbar a {
+    padding: 2rem;
+    font-size: 2rem;
+    flex-grow: 1;
+    text-align: center;
+    transition: 0.2s linear;
+
+}
+.navbar a i {
+   padding-right: 0.5rem;
+}
+.navbar a:hover {
+    padding-bottom: 6rem;
+}
+
